@@ -1,0 +1,34 @@
+
+### Listar todos
+GET http://localhost:3000/productos
+
+### Listar disponibles
+GET http://localhost:3000/productos/disponibles
+
+### Obtener por id
+GET http://localhost:3000/productos/1
+
+### Crear producto
+POST http://localhost:3000/productos
+Content-Type: application/json
+
+{
+  "nombre": "Teclado Mecánico",
+  "precio": 59.99,
+  "descripcion": "Teclado con switches azules, retroiluminado.",
+  "disponible": true
+}
+
+### Actualizar producto
+PUT http://localhost:3000/productos/1
+Content-Type: application/json
+
+{
+  "nombre": "Teclado Mecánico V2",
+  "precio": 69.99,
+  "descripcion": "Versión mejorada con switches rojos.",
+  "disponible": true
+}
+
+### Eliminar producto
+DELETE http://localhost:3000/productos/1

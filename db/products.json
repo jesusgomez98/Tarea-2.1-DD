@@ -1,2 +1,10 @@
-
-[]
+[
+  {
+    "id": 1761943776318,
+    "nombre": "Teclado Mecánico",
+    "precio": 59.99,
+    "descripcion": "Teclado con switches azules, retroiluminado.",
+    "disponible": true,
+    "fecha_ingreso": "2025-10-31T20:49:36.318Z"
+  }
+]
